@@ -1,0 +1,28 @@
+table {
+    width: 525px;
+    margin: auto;
+    background-color: rgb(212, 214, 214);
+    color: black;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    height: 42px;
+}
+
+tr {
+    height: 35px;
+    font-size: large;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: grey;
+}
